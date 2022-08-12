@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #222;
+  color: #fff;
+  font-family: 'Noto Kufi Arabic', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.allinpute {
+  display: flex;
+  justify-content: center;
+}
+.crud {
+  width: 80%;
+  margin: auto;
+}
+.head {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+input {
+  height: 30px;
+  outline: none;
+  border: none;
+  background: #111;
+  color: #fff;
+  margin: 4px 0;
+  border-radius: 5px;
+  padding: 4px;
+  text-align: center;
+  font-size: large;
+}
+input:focus {
+  background: #000;
+  transform: scale(1.1);
+}
+
+#total {
+  background: rgb(9, 9, 198);
+  padding: 5px 2px;
+  border-radius: 4px;
+  width: 100%;
+  text-align: center;
+  font-size: large;
+}
+.sbmbtn button {
+  font-size: 28px;
+}
+.sbmbtn {
+  display: flex;
+  justify-content: center;
+}
+#total::before {
+  content: "اجمالي التحصيل : ";
+  font-size: large;
+}
+button {
+  width: 40%;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+  background: rgb(9, 9, 198);
+  color: #fff;
+  border-radius: 10px;
+  font-size: medium;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+button:hover {
+  background: rgb(77, 77, 255);
+  letter-spacing: 1.5px;
+}
+.btn {
+  display: flex;
+  justify-content: space-between;
+}
+.btn button {
+  width: 45%;
+}
+table {
+  width: 100%;
+  text-align: center;
+  margin: 10px 0;
+}
+table th {
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+th,
+td {
+  padding: 5px;
+}
+#deleteall {
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+.bb {
+  margin-top: 20px;
+}
+.icone {
+  background-color: #222;
+}
