@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@600&family=Roboto:wght@700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="crud">
+        <div class="head">
+            <h2> Ziad Shamndy </h2>
+            <p>برنامج تحــصيل حساب </p>
+        </div>
+        <div class="allinpute">
+            <div class="input">
+                <input placeholder="اسم العميل" id="title" type="text">
+                <div class="price">
+                    <input type="number" id="price" placeholder="المبلغ">
+                </div>
+                <div class="sbmbtn">
+
+                    <button id="submit">إضافه</button>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="output">
+
+
+            <table>
+                <tr>
+                    <th>الرقم</th>
+                    <th>اسم العـمـيـل</th>
+                    <th>المبلغ</th>
+                    <th>تعديل</th>
+                    <th>مسح</i></th>
+                </tr>
+                <tbody id="tbody">
+
+                </tbody>
+            </table>
+            <div class="sbmbtn">
+                <small id="total"></small>
+            </div>
+            <div id="deleteall">
+
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </div>
+
+</body>
+
+</html>
