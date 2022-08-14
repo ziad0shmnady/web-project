@@ -80,9 +80,6 @@ readData();
 //count
 //delete
 function dataDel(i) {
-    if (i == 0) {
-        deleteAll()
-    }
     datapro.splice(i, i);
     localStorage.Product = JSON.stringify(datapro);
     readData();
